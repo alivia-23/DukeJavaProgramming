@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Part1
+comment0.text=\n\ \ 1.\ Write\ the\ method\ findStopCodon\ that\ has\ three\ parameters,\ a\ String\ parameter\ named\ dna,\n\ \ \ \ \ an\ integer\ parameter\ named\ startIndex\ that\ represents\ where\ the\ first\ occurrence\ of\ ATG\ occurs\ in\ dna,\n\ \ \ \ \ and\ a\ String\ parameter\ named\ stopCodon.\n\ \ 2.\ This\ method\ returns\ the\ index\ of\ the\ first\ occurrence\ of\ stopCodon\ that\ appears\ past\ startIndex\n\ \ \ \ \ and\ is\ a\ multiple\ of\ 3\ away\ from\ startIndex\n\ \ 3.\ If\ there\ is\ no\ such\ stopCodon,\ this\ method\ returns\ the\ length\ of\ the\ dna\ strand.\n\ \ 4.\ Write\ the\ void\ method\ testFindStopCodon\ that\ calls\ the\ method\ findStopCodon\ with\ several\ examples\n\ \ \ \ \ and\ prints\ out\ the\ results\ to\ check\ if\ findStopCodon\ is\ working\ correctly.\n
+comment1.params=dna\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=dna
+comment2.target=java.lang.String\ findGene(java.lang.String)
+comment3.params=
+comment3.target=void\ printAllGenes()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

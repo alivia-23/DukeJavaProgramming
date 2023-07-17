@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Part2
+comment0.text=\n\ 1.\ Write\ the\ method\ named\ howMany\ that\ has\ two\ String\ parameters\ named\ stringa\ and\ stringb\n\ 2.\ This\ method\ returns\ an\ integer\ indicating\ how\ many\ times\ stringa\ appears\ in\ stringb,\n\ \ \ \ where\ each\ occurrence\ of\ stringa\ must\ not\ overlap\ with\ another\ occurrence\ of\ it.\n\ 3.\ For\ example,\ the\ call\ howMany(\u201CGAA\u201D,\ \u201CATGAACGAATTGAATC\u201D)\ returns\ 3\ as\ GAA\ occurs\ 3\ times.\n\ \ \ \ The\ call\ howMany(\u201CAA\u201D,\ \u201CATAAAA\u201D)\ returns\ 2.\ Note\ that\ the\ AA\u2019s\ found\ cannot\ overlap.\n\ 4.\ Write\ the\ void\ method\ testHowMany\ has\ no\ parameters.\ Add\ code\ in\ here\ to\ call\ howMany\ with\ several\ examples\ and\ print\ the\ results.\n\ \ \ \ Think\ carefully\ about\ what\ types\ of\ examples\ would\ be\ good\ to\ test\ to\ make\ sure\ your\ method\ works\ correctly.\n
+comment1.params=stringa\ stringb
+comment1.target=int\ howMany(java.lang.String,\ java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
