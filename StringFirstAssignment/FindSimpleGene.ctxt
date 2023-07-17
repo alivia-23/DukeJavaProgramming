@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FindSimpleGene
+comment0.text=\n\ 1.\ Create\ a\ new\ Java\ project\ named\ StringsFirstAssignments.\ You\ can\ put\ all\ the\ classes\ for\ this\ programming\ exercise\ in\ this\ project.\n\n\ 2.Create\ a\ new\ Java\ Class\ named\ Part1.\ The\ following\ methods\ go\ in\ this\ class.\n\n\ 3.Write\ the\ method\ findSimpleGene\ that\ has\ one\ String\ parameter\ dna,\ representing\ a\ string\ of\ DNA.\ This\ method\ does\ the\ following\:\n\n\ Finds\ the\ index\ position\ of\ the\ start\ codon\ \u201CATG\u201D.\ If\ there\ is\ no\ \u201CATG\u201D,\ return\ the\ empty\ string.\n\n\ Finds\ the\ index\ position\ of\ the\ first\ stop\ codon\ \u201CTAA\u201D\ appearing\ after\ the\ \u201CATG\u201D\ that\ was\ found.\ If\ there\ is\ no\ such\ \u201CTAA\u201D,\ return\ the\ empty\ string.\n\n\ If\ the\ length\ of\ the\ substring\ between\ the\ \u201CATG\u201D\ and\ \u201CTAA\u201D\ is\ a\ multiple\ of\ 3,\ then\ return\ the\ substring\ that\ starts\ with\ that\ \u201CATG\u201D\ and\ ends\ with\ that\ \u201CTAA\u201D.\n
+comment1.params=dna
+comment1.target=java.lang.String\ findSimpleGene(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
