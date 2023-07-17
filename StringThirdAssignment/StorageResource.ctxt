@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=StorageResource
+comment0.text=\n\ The\ StorageResource\ class\ stores\ any\ number\ of\ String\ objects\ and\ allows\ access\ to\ these\ stored\ values\ one\ at\ a\ time,\ using\ the\ method\ data.\ These\ strings\ can\ then\ be\ iterated\ over\ in\ the\ order\ they\ were\ added\ using\ a\ for\ loop.\n\ This\ class\ mirrors\ an\ ArrayList<String>\ in\ some\ functionality,\ but\ is\ simpler\ to\ use\ and\ fits\ the\ Duke/Coursersa\ model\ of\ creating\ and\ using\ iterables.\n\n\ Example\ usage\:\n\n\ \ FileResource\ fr\ \=\ new\ FileResource();\n\ \ StorageResource\ store\ \=\ new\ StorageResource();\n\ \ for\ (String\ s\ \:\ fr.words())\ {\n\ \ \ \ \ \ store.add(s);\n\ \ }\n\ \ //\ can\ process\ store\ here,\ e.g.,\n\ \ //\ get\ number\ of\ strings\ stored\n\ \ int\ x\ \=\ store.size();\n\ \ for\ (String\ s\ \:\ store.data())\ {\n\ \ \ \ \ \ //\ print\ or\ process\ s\n\ \ }\n
+comment1.params=
+comment1.target=StorageResource()
+comment2.params=data
+comment2.target=StorageResource(java.lang.String[])
+comment2.text=\n\ Create\ a\ StorageResource\ object,\ loaded\ with\ the\ Strings\ passed\ as\ parameters.\n
+comment3.params=other
+comment3.target=StorageResource(StorageResource)
+comment3.text=\n\ Create\ a\ StorageResource\ object\ that\ is\ a\ copy\ of\ another\ list.\n\n\ @param\ other\ the\ original\ list\ being\ copied\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\n\ Remove\ all\ strings\ from\ this\ object\ so\ that\ size()\ \=\=\ 0\n
+comment5.params=s
+comment5.target=void\ add(java.lang.String)
+comment5.text=\n\ Adds\ a\ string\ to\ this\ storage\ object.\n\n\ @param\ s\ the\ value\ added\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\n\ Returns\ the\ number\ of\ strings\ added/stored\ in\ this\ object.\n\n\ @return\ the\ number\ of\ strings\ stored\ in\ the\ object\n
+comment7.params=s
+comment7.target=boolean\ contains(java.lang.String)
+comment7.text=\n\ Determines\ if\ a\ string\ is\ stored\ in\ this\ object.\n\n\ @param\ s\ string\ searched\ for\n\ @return\ true\ if\ and\ only\ if\ s\ is\ stored\ in\ this\ object\n
+comment8.params=
+comment8.target=java.lang.Iterable\ data()
+comment8.text=\n\ Create\ and\ return\ an\ iterable\ for\ all\ strings\ in\ this\ object.\n\n\ @return\ an\ Iterable\ that\ allows\ access\ to\ each\ string\ in\ the\ order\ stored\n
+numComments=9
