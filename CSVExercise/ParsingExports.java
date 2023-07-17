@@ -28,14 +28,14 @@ public class ParsingExports
         
         //test bigExporters method
         parser = fr.getCSVParser();
-        bigExporters(parser, "$999,999,999");
+        bigExporters(parser, "$999,999,999");*/
         
         //test listExportersTwoProducts method using exportdata.csv
         //listExportersTwoProducts(parser, "cotton", "flowers");
         
         //test numberOfExporters using exportdata.csv
-        parser = fr.getCSVParser();
-        System.out.println(numberOfExporters(parser, "sugar"));*/
+        //parser = fr.getCSVParser();
+        //System.out.println(numberOfExporters(parser, "cocoa"));
         
         /*/test countryInfo using exportdata.csv
         parser = fr.getCSVParser();
